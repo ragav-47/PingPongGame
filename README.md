@@ -1,4 +1,4 @@
-# PingPongGame
+# Ping Pong Game
 
 ## Aim:
 To develop a ping pong game using C# program in unity .
@@ -14,6 +14,9 @@ Right click creat-> 2D->spirates-> circle then create->2D->spirates->square. Dra
 For both the sprites->Add Components-> BoxCollider 2D (Tick in IsTigger) and Rigidbody 2D(Change the body type to Kinematics )
 ### Step 5:
 For both the sprites -> Add the tag. In inspector-> Tag-> Click AddTag and create the tag with name as(Paddle) and make the tag as Paddle so we can whether ball is hitting paddle or somewhere else in script. Similarly do for Ball.
+
+<br><br>
+
 ### Step 6:
 Drag the ball and paddle from hierarchy to the Asserts-> Sprites to create prefabs and reset the position of Paddle to (0,0,0) and delete ball and paddle from hierarchy.
 ### Step 7:
@@ -29,6 +32,8 @@ Edit-> Project settings-> Input -> Axes (2) -> Horizontal (name as PaddleLeft) a
 ### Step 10:
 In PaddleRight (Negative button - down and positive buttom - up) and paddleLeft(Negative button - s and positive buttom - w)
  After completing, to move the ball, in the ball inspector give the value for speed
+ 
+ <br><br><br><br><br><br><br><br><br>
  
  ## Program:
  ### GameManager.cs
@@ -68,7 +73,9 @@ public class GameManager : MonoBehaviour
 }
  ```
  
-  ### Paddle.cs
+ <br><br><br>
+ 
+ ### Paddle.cs
   ```c#
   using System.Collections;
 using System.Collections.Generic;
@@ -197,10 +204,11 @@ public class Ball : MonoBehaviour
 
  ```
  
+ <br><br><br><br>
+ 
  ## Output:
 
- ![Screenshot (51)](https://user-images.githubusercontent.com/75235488/168601649-d48cfe58-0705-4927-b42b-d48ec54b8fbb.png)
-
+![image](https://user-images.githubusercontent.com/75235150/169642276-1f09797e-c4b5-4650-bfb0-2b63a446fa1d.png)
  
  ## Result:
  Thus, a ping pong game was developed using C# program in unity .
