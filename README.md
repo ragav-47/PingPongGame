@@ -1,4 +1,6 @@
-# Ping Pong Game
+### EX NO : 03
+### DATE  : 21.04.2022
+# <p align="center">Ping Pong Game</p>
 
 ## Aim:
 To develop a ping pong game using C# program in unity .
